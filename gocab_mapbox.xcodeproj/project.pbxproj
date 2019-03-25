@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D2D3B8B5D745C51D618A4D /* Pods_gocab_mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD51B6EA3D8F979ECF08D2 /* Pods_gocab_mapbox.framework */; };
+		DC985874511BB2F47598A95C /* Pods_gocab_mapboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A498CCA8FF04FC35CE44B23C /* Pods_gocab_mapboxTests.framework */; };
+		DF1AE2F6221E081300CE7D58 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AE2F5221E081300CE7D58 /* NewViewController.swift */; };
+		DF1AE2F8221E0DEB00CE7D58 /* AddressesAutoCompleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1AE2F7221E0DEB00CE7D58 /* AddressesAutoCompleteController.swift */; };
+		DF1AE2FB221E0EED00CE7D58 /* powered_bing_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1AE2F9221E0EED00CE7D58 /* powered_bing_maps.png */; };
+		DF1AE2FC221E0EED00CE7D58 /* powered-by-foursquare-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1AE2FA221E0EED00CE7D58 /* powered-by-foursquare-grey.png */; };
+		DF1AE2FE221E118700CE7D58 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1AE2FD221E118700CE7D58 /* Rubik-Regular.ttf */; };
+		DF3AA64421C5C1A6004C3486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AA64321C5C1A6004C3486 /* AppDelegate.swift */; };
+		DF3AA64621C5C1A6004C3486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AA64521C5C1A6004C3486 /* ViewController.swift */; };
+		DF3AA64921C5C1A6004C3486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3AA64721C5C1A6004C3486 /* Main.storyboard */; };
+		DF3AA64B21C5C1AC004C3486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3AA64A21C5C1AC004C3486 /* Assets.xcassets */; };
+		DF3AA64E21C5C1AC004C3486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3AA64C21C5C1AC004C3486 /* LaunchScreen.storyboard */; };
+		DF3AA65921C5C1AC004C3486 /* gocab_mapboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AA65821C5C1AC004C3486 /* gocab_mapboxTests.swift */; };
+		DFB34C8721C91FED009C93CA /* Rubik in Resources */ = {isa = PBXBuildFile; fileRef = DFB34C8621C91FED009C93CA /* Rubik */; };
+		DFB34C8A21C9206C009C93CA /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFB34C8921C9206C009C93CA /* Rubik-Regular.ttf */; };
+		DFB34C8C21C972E6009C93CA /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB34C8B21C972E6009C93CA /* magnifying_glass.png */; };
+		DFB34C8E21C97863009C93CA /* center_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB34C8D21C97863009C93CA /* center_icon.png */; };
+		DFB34C9021C9A743009C93CA /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB34C8F21C9A743009C93CA /* location_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3AA65521C5C1AC004C3486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3AA63821C5C1A6004C3486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3AA63F21C5C1A6004C3486;
+			remoteInfo = gocab_mapbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CDF4301B1D2BBFEC6EB852 /* Pods-gocab_mapboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocab_mapboxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gocab_mapboxTests/Pods-gocab_mapboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		2809C6770EFDAE5C1F13A234 /* Pods-gocab_mapbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocab_mapbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-gocab_mapbox/Pods-gocab_mapbox.release.xcconfig"; sourceTree = "<group>"; };
+		58CD51B6EA3D8F979ECF08D2 /* Pods_gocab_mapbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gocab_mapbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A498CCA8FF04FC35CE44B23C /* Pods_gocab_mapboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gocab_mapboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1AE2F5221E081300CE7D58 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		DF1AE2F7221E0DEB00CE7D58 /* AddressesAutoCompleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesAutoCompleteController.swift; sourceTree = "<group>"; };
+		DF1AE2F9221E0EED00CE7D58 /* powered_bing_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = powered_bing_maps.png; path = Assets.xcassets/powered_bing_maps.png; sourceTree = "<group>"; };
+		DF1AE2FA221E0EED00CE7D58 /* powered-by-foursquare-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered-by-foursquare-grey.png"; path = "Assets.xcassets/powered-by-foursquare-grey.png"; sourceTree = "<group>"; };
+		DF1AE2FD221E118700CE7D58 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "Rubik/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		DF3AA64021C5C1A6004C3486 /* gocab_mapbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gocab_mapbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3AA64321C5C1A6004C3486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF3AA64521C5C1A6004C3486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF3AA64821C5C1A6004C3486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3AA64A21C5C1AC004C3486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3AA64D21C5C1AC004C3486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF3AA64F21C5C1AC004C3486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3AA65421C5C1AC004C3486 /* gocab_mapboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gocab_mapboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3AA65821C5C1AC004C3486 /* gocab_mapboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gocab_mapboxTests.swift; sourceTree = "<group>"; };
+		DF3AA65A21C5C1AC004C3486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB34C8621C91FED009C93CA /* Rubik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rubik; sourceTree = "<group>"; };
+		DFB34C8921C9206C009C93CA /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		DFB34C8B21C972E6009C93CA /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifying_glass.png; path = Assets.xcassets/magnifying_glass.png; sourceTree = "<group>"; };
+		DFB34C8D21C97863009C93CA /* center_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = center_icon.png; path = Assets.xcassets/center_icon.png; sourceTree = "<group>"; };
+		DFB34C8F21C9A743009C93CA /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_icon.png; path = Assets.xcassets/location_icon.png; sourceTree = "<group>"; };
+		E2A4B967919F34BB76EF5EEA /* Pods-gocab_mapboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocab_mapboxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gocab_mapboxTests/Pods-gocab_mapboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD71623E479F069340A177A1 /* Pods-gocab_mapbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocab_mapbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gocab_mapbox/Pods-gocab_mapbox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3AA63D21C5C1A6004C3486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D2D3B8B5D745C51D618A4D /* Pods_gocab_mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3AA65121C5C1AC004C3486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC985874511BB2F47598A95C /* Pods_gocab_mapboxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23384C3AE52A1AE0EFA69AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD71623E479F069340A177A1 /* Pods-gocab_mapbox.debug.xcconfig */,
+				2809C6770EFDAE5C1F13A234 /* Pods-gocab_mapbox.release.xcconfig */,
+				E2A4B967919F34BB76EF5EEA /* Pods-gocab_mapboxTests.debug.xcconfig */,
+				04CDF4301B1D2BBFEC6EB852 /* Pods-gocab_mapboxTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9113478CC87C0ED45D49F810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CD51B6EA3D8F979ECF08D2 /* Pods_gocab_mapbox.framework */,
+				A498CCA8FF04FC35CE44B23C /* Pods_gocab_mapboxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3AA63721C5C1A6004C3486 = {
+			isa = PBXGroup;
+			children = (
+				DF3AA64221C5C1A6004C3486 /* gocab_mapbox */,
+				DF3AA65721C5C1AC004C3486 /* gocab_mapboxTests */,
+				DF3AA64121C5C1A6004C3486 /* Products */,
+				23384C3AE52A1AE0EFA69AD0 /* Pods */,
+				9113478CC87C0ED45D49F810 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3AA64121C5C1A6004C3486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AA64021C5C1A6004C3486 /* gocab_mapbox.app */,
+				DF3AA65421C5C1AC004C3486 /* gocab_mapboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3AA64221C5C1A6004C3486 /* gocab_mapbox */ = {
+			isa = PBXGroup;
+			children = (
+				DFB34C8821C9205A009C93CA /* fonts */,
+				DF3AA64321C5C1A6004C3486 /* AppDelegate.swift */,
+				DF3AA64521C5C1A6004C3486 /* ViewController.swift */,
+				DF1AE2F5221E081300CE7D58 /* NewViewController.swift */,
+				DF3AA64721C5C1A6004C3486 /* Main.storyboard */,
+				DF1AE2FD221E118700CE7D58 /* Rubik-Regular.ttf */,
+				DF1AE2F7221E0DEB00CE7D58 /* AddressesAutoCompleteController.swift */,
+				DF1AE2F9221E0EED00CE7D58 /* powered_bing_maps.png */,
+				DF1AE2FA221E0EED00CE7D58 /* powered-by-foursquare-grey.png */,
+				DF3AA64A21C5C1AC004C3486 /* Assets.xcassets */,
+				DFB34C8F21C9A743009C93CA /* location_icon.png */,
+				DFB34C8D21C97863009C93CA /* center_icon.png */,
+				DFB34C8B21C972E6009C93CA /* magnifying_glass.png */,
+				DFB34C8621C91FED009C93CA /* Rubik */,
+				DF3AA64C21C5C1AC004C3486 /* LaunchScreen.storyboard */,
+				DF3AA64F21C5C1AC004C3486 /* Info.plist */,
+			);
+			path = gocab_mapbox;
+			sourceTree = "<group>";
+		};
+		DF3AA65721C5C1AC004C3486 /* gocab_mapboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AA65821C5C1AC004C3486 /* gocab_mapboxTests.swift */,
+				DF3AA65A21C5C1AC004C3486 /* Info.plist */,
+			);
+			path = gocab_mapboxTests;
+			sourceTree = "<group>";
+		};
+		DFB34C8821C9205A009C93CA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DFB34C8921C9206C009C93CA /* Rubik-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3AA63F21C5C1A6004C3486 /* gocab_mapbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3AA65D21C5C1AC004C3486 /* Build configuration list for PBXNativeTarget "gocab_mapbox" */;
+			buildPhases = (
+				98AC8F0A711F84C7E0A077DC /* [CP] Check Pods Manifest.lock */,
+				DF3AA63C21C5C1A6004C3486 /* Sources */,
+				DF3AA63D21C5C1A6004C3486 /* Frameworks */,
+				DF3AA63E21C5C1A6004C3486 /* Resources */,
+				76510D2D9C88AE87F995F138 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gocab_mapbox;
+			productName = gocab_mapbox;
+			productReference = DF3AA64021C5C1A6004C3486 /* gocab_mapbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3AA65321C5C1AC004C3486 /* gocab_mapboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3AA66021C5C1AC004C3486 /* Build configuration list for PBXNativeTarget "gocab_mapboxTests" */;
+			buildPhases = (
+				79FC0B3D2E35FB975FFECB87 /* [CP] Check Pods Manifest.lock */,
+				DF3AA65021C5C1AC004C3486 /* Sources */,
+				DF3AA65121C5C1AC004C3486 /* Frameworks */,
+				DF3AA65221C5C1AC004C3486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3AA65621C5C1AC004C3486 /* PBXTargetDependency */,
+			);
+			name = gocab_mapboxTests;
+			productName = gocab_mapboxTests;
+			productReference = DF3AA65421C5C1AC004C3486 /* gocab_mapboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3AA63821C5C1A6004C3486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tomahawk;
+				TargetAttributes = {
+					DF3AA63F21C5C1A6004C3486 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DF3AA65321C5C1AC004C3486 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DF3AA63F21C5C1A6004C3486;
+					};
+				};
+			};
+			buildConfigurationList = DF3AA63B21C5C1A6004C3486 /* Build configuration list for PBXProject "gocab_mapbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3AA63721C5C1A6004C3486;
+			productRefGroup = DF3AA64121C5C1A6004C3486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3AA63F21C5C1A6004C3486 /* gocab_mapbox */,
+				DF3AA65321C5C1AC004C3486 /* gocab_mapboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3AA63E21C5C1A6004C3486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3AA64E21C5C1AC004C3486 /* LaunchScreen.storyboard in Resources */,
+				DF3AA64B21C5C1AC004C3486 /* Assets.xcassets in Resources */,
+				DF1AE2FB221E0EED00CE7D58 /* powered_bing_maps.png in Resources */,
+				DF1AE2FC221E0EED00CE7D58 /* powered-by-foursquare-grey.png in Resources */,
+				DFB34C8721C91FED009C93CA /* Rubik in Resources */,
+				DFB34C8A21C9206C009C93CA /* Rubik-Regular.ttf in Resources */,
+				DF1AE2FE221E118700CE7D58 /* Rubik-Regular.ttf in Resources */,
+				DF3AA64921C5C1A6004C3486 /* Main.storyboard in Resources */,
+				DFB34C9021C9A743009C93CA /* location_icon.png in Resources */,
+				DFB34C8E21C97863009C93CA /* center_icon.png in Resources */,
+				DFB34C8C21C972E6009C93CA /* magnifying_glass.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3AA65221C5C1AC004C3486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76510D2D9C88AE87F995F138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gocab_mapbox/Pods-gocab_mapbox-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxGeocoder.swift/MapboxGeocoder.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework",
+				"${PODS_ROOT}/MapboxNavigationNative/MapboxNavigationNative.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxSpeech/MapboxSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxGeocoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigationNative.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/MapboxNavigationNative.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gocab_mapbox/Pods-gocab_mapbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FC0B3D2E35FB975FFECB87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gocab_mapboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AC8F0A711F84C7E0A077DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gocab_mapbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3AA63C21C5C1A6004C3486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1AE2F8221E0DEB00CE7D58 /* AddressesAutoCompleteController.swift in Sources */,
+				DF3AA64621C5C1A6004C3486 /* ViewController.swift in Sources */,
+				DF3AA64421C5C1A6004C3486 /* AppDelegate.swift in Sources */,
+				DF1AE2F6221E081300CE7D58 /* NewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3AA65021C5C1AC004C3486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3AA65921C5C1AC004C3486 /* gocab_mapboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3AA65621C5C1AC004C3486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3AA63F21C5C1A6004C3486 /* gocab_mapbox */;
+			targetProxy = DF3AA65521C5C1AC004C3486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF3AA64721C5C1A6004C3486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3AA64821C5C1A6004C3486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3AA64C21C5C1AC004C3486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3AA64D21C5C1AC004C3486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3AA65B21C5C1AC004C3486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF3AA65C21C5C1AC004C3486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3AA65E21C5C1AC004C3486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD71623E479F069340A177A1 /* Pods-gocab_mapbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RDAU925Y3;
+				INFOPLIST_FILE = gocab_mapbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomahawk.gocab-mapbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF3AA65F21C5C1AC004C3486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2809C6770EFDAE5C1F13A234 /* Pods-gocab_mapbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RDAU925Y3;
+				INFOPLIST_FILE = gocab_mapbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomahawk.gocab-mapbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF3AA66121C5C1AC004C3486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A4B967919F34BB76EF5EEA /* Pods-gocab_mapboxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RDAU925Y3;
+				INFOPLIST_FILE = gocab_mapboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomahawk.gocab-mapboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gocab_mapbox.app/gocab_mapbox";
+			};
+			name = Debug;
+		};
+		DF3AA66221C5C1AC004C3486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CDF4301B1D2BBFEC6EB852 /* Pods-gocab_mapboxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RDAU925Y3;
+				INFOPLIST_FILE = gocab_mapboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomahawk.gocab-mapboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gocab_mapbox.app/gocab_mapbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3AA63B21C5C1A6004C3486 /* Build configuration list for PBXProject "gocab_mapbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3AA65B21C5C1AC004C3486 /* Debug */,
+				DF3AA65C21C5C1AC004C3486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3AA65D21C5C1AC004C3486 /* Build configuration list for PBXNativeTarget "gocab_mapbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3AA65E21C5C1AC004C3486 /* Debug */,
+				DF3AA65F21C5C1AC004C3486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3AA66021C5C1AC004C3486 /* Build configuration list for PBXNativeTarget "gocab_mapboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3AA66121C5C1AC004C3486 /* Debug */,
+				DF3AA66221C5C1AC004C3486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3AA63821C5C1A6004C3486 /* Project object */;
+}
